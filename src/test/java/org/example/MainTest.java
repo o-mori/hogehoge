@@ -15,7 +15,7 @@ class MainTest {
 
   @Test
   void hello2() {
-    var text = Main.hello("JMC");
-    Assertions.assertEquals(text,"Hello, JMA");
+    var text = Main.hello("Omori");
+    Assertions.assertEquals(text,"Hello, Omori");
   }
 }
